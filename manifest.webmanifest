@@ -1,0 +1,10 @@
+{
+  "name": "낱말 카드",
+  "short_name": "낱말카드",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fff8ef",
+  "theme_color": "#fff8ef",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}

@@ -1,0 +1,134 @@
+{
+ "apple": 0,
+ "banana": 0,
+ "strawberry": 5,
+ "grapes": 1,
+ "watermelon": 1,
+ "orange": 7,
+ "peach": 1,
+ "pear": 4,
+ "pineapple": 2,
+ "cherry": 1,
+ "kiwi": 0,
+ "lemon": 0,
+ "dog": 5,
+ "cat": 0,
+ "rabbit": 2,
+ "lion": 1,
+ "elephant": 3,
+ "giraffe": 4,
+ "bear": 3,
+ "monkey": 3,
+ "tiger": 2,
+ "penguin": 3,
+ "duck": 2,
+ "horse": 4,
+ "cow": 2,
+ "pig": 2,
+ "car": 2,
+ "bus": 0,
+ "train": 1,
+ "airplane": 5,
+ "ship": 1,
+ "bicycle": 0,
+ "motorcycle": 1,
+ "helicopter": 3,
+ "truck": 0,
+ "firetruck": 3,
+ "policecar": 1,
+ "ambulance": 1,
+ "excavator": 3,
+ "fridge": 6,
+ "washer": {
+  "i": 5,
+  "mode": "round"
+ },
+ "tv": {
+  "i": 2,
+  "mode": "round"
+ },
+ "microwave": {
+  "i": 5,
+  "mode": "round"
+ },
+ "fan": 2,
+ "vacuum": 1,
+ "aircon": {
+  "i": 3,
+  "mode": "round"
+ },
+ "ricecooker": 2,
+ "hairdryer": 0,
+ "phone": {
+  "i": 0,
+  "mode": "round"
+ },
+ "computer": 0,
+ "toaster": 2,
+ "cup": 0,
+ "chair": 4,
+ "book": 5,
+ "ball": {
+  "i": 7,
+  "crop": [
+   0.0,
+   0.0,
+   0.8,
+   1.0
+  ]
+ },
+ "clock": 0,
+ "umbrella": 0,
+ "shoes": 4,
+ "hat": 6,
+ "bag": 0,
+ "spoon": 7,
+ "pencil": 1,
+ "toothbrush": 1,
+ "key": 3,
+ "glasses": 4,
+ "eye": {
+  "i": 1,
+  "mode": "round"
+ },
+ "nose": {
+  "i": 1,
+  "mode": "round",
+  "crop": [
+   0.2,
+   0.1,
+   0.65,
+   0.7
+  ]
+ },
+ "mouth": {
+  "from": "teeth",
+  "i": 7,
+  "mode": "round",
+  "crop": [
+   0.4,
+   0.5,
+   0.9,
+   0.85
+  ]
+ },
+ "ear": {
+  "i": 7,
+  "mode": "round"
+ },
+ "hand": 3,
+ "foot": 7,
+ "teeth": {
+  "i": 6,
+  "mode": "round",
+  "crop": [
+   0.25,
+   0.5,
+   0.8,
+   0.85
+  ]
+ },
+ "hair": 1,
+ "finger": 6,
+ "arm": 0
+}

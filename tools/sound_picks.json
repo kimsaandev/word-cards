@@ -1,0 +1,8 @@
+{
+ "dog": 1, "cat": {"i": 5, "len": 2.5}, "lion": {"i": 11, "len": 3.5}, "elephant": 0,
+ "bear": 0, "monkey": 0, "tiger": 1, "penguin": 2, "duck": 15, "horse": 0, "cow": 0, "pig": {"i": 8, "repeat": 2},
+ "car": 0, "bus": 0, "train": 0, "airplane": {"i": 0, "len": 4}, "ship": {"i": 2, "len": 3.5},
+ "bicycle": 4, "motorcycle": 2, "helicopter": {"i": 0, "len": 3.5}, "truck": {"from": "bus", "i": 6},
+ "firetruck": {"i": 1, "len": 3.5}, "policecar": {"i": 0, "len": 3.5}, "ambulance": {"i": 0, "len": 3.5},
+ "excavator": 0
+}
