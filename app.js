@@ -165,6 +165,11 @@
   };
   card.addEventListener("pointerup", endDrag);
   card.addEventListener("pointercancel", endDrag);
+  // 블로그 iframe 안에서 마우스를 끌다가 밖에서 놓으면 pointerup이 오지 않으므로,
+  // 포인터가 문서를 벗어나거나 캡처가 풀리면 그 자리에서 끝낸다
+  card.addEventListener("lostpointercapture", endDrag);
+  document.documentElement.addEventListener("pointerleave", endDrag);
+  window.addEventListener("blur", () => endDrag({ type: "blur", clientY: drag?.y ?? 0 }));
 
   $("prev").addEventListener("click", () => go(-1));
   $("next").addEventListener("click", () => go(1));
